@@ -18,9 +18,6 @@ allprojects {
         maven { url "https://jitpack.io" }
     }
 }
-dependencies {
-    compile 'com.github.ggggooooaaa:tartest:0.0.3'
-}
 
 task clean(type: Delete) {
     delete rootProject.buildDir
