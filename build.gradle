@@ -15,7 +15,11 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        maven { url "https://jitpack.io" }
     }
+}
+dependencies {
+    compile 'com.github.ggggooooaaa:tartest:0.0.1'
 }
 
 task clean(type: Delete) {
